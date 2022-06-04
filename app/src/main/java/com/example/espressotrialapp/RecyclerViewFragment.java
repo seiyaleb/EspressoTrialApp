@@ -89,6 +89,7 @@ public class RecyclerViewFragment extends Fragment {
         list_player.add("フロイドメイウェザー");
         list_player.add("マグレガー");
         list_player.add("フェデラー");
+        list_player.add("ネイマール");
         return list_player;
     }
 }

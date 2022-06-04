@@ -94,8 +94,8 @@ public class ExampleInstrumentedTest {
         FragmentScenario.launchInContainer(RecyclerViewFragment.class);
 
         //指定したpositionのアイテム内にあるテキストを検証
-        onView(withId(R.id.recyclerView)).check(matches(atPosition(1, hasDescendant(withText("フロイドメイウェザー")))));
-        onView(withId(R.id.recyclerView)).check(matches(atPosition(3, hasDescendant(withText("フェデラー")))));
+        onView(withId(R.id.recyclerView)).check(matches(atPosition(0, hasDescendant(withText("レブロンジェームズ")))));
+        onView(withId(R.id.recyclerView)).check(matches(atPosition(4, hasDescendant(withText("ネイマール")))));
     }
 
     //カスタムMatcher
